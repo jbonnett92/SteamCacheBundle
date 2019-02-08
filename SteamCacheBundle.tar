@@ -73,6 +73,7 @@ overlay/0040777000000000000000000000000013310505121007464 5ustar00overlay/etc/00
 #ENABLE_STEAM#zone "content8.steampowered.com" in { type master; file "/etc/bind/cache/steam/db.content_.steampowered.com"; };
 
 ## Uplay
+#ENABLE_UPLAY#zone "cdn.ubi.com" in { type master; file "/etc/bind/cache/uplay/db.uplay"; };
 #ENABLE_UPLAY#zone "*.cdn.ubi.com" in { type master; file "/etc/bind/cache/uplay/db.uplay"; };
 
 ## Windows
